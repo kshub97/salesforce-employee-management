@@ -1,50 +1,18 @@
-# Salesforce Employee Management System
+# Salesforce DX Project: Next Steps
 
-## Overview
-Employee Management application built to gain hands-on Salesforce development experience after completing Salesforce Platform Developer I certification.
+Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
-The application manages employees, departments and leave requests using Salesforce platform capabilities.
+## How Do You Plan to Deploy Your Changes?
 
-## Features
-- Employee Management
-- Department Assignment
-- Leave Request Workflow
-- Approval Automation
-- Validation Rules
-- Apex Trigger
-- Lightning Web Components (LWC)
-- Reports and Dashboard
+Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-## Tech Stack
-- Salesforce DX
-- Apex
-- LWC
-- SOQL
-- Flow
-- VS Code
-- GitHub
+## Configure Your Salesforce DX Project
 
-## Data Model
+The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
-Department
-|
-Employee
-|
-Leave Request
+## Read All About It
 
-## Architecture
-LWC
-↓
-Apex
-↓
-SOQL
-↓
-Salesforce Objects
-
-## Screenshots
-(Add screenshots later)
-
-## Future Improvements
-- REST Integration
-- Permission Sets
-- Email Notification
+- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
+- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
+- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
+- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
