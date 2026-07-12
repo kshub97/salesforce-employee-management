@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_date_cannot_be_before_start_date</fullName>
+    <active>true</active>
+    <description>Leave end date cannot be before start date.</description>
+    <errorConditionFormula>End_Date__c &lt; Start_Date__c</errorConditionFormula>
+    <errorMessage>Leave end date cannot be before start date.</errorMessage>
+</ValidationRule>
